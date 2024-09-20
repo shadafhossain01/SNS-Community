@@ -1,0 +1,708 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --inter:"Inter", sans-serif;
+    --light-color:#289BDE;
+    --dark-color:#071B27;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+ 
+  .title{
+    text-align: center;
+  }
+
+.title h3{
+    font-size: 20px;
+    color: #289BDE;
+}
+
+.title h2{
+    font-size: 40px;
+    color: #071B27;
+    margin: 5px 0px;
+}
+
+.title p{
+    max-width: 613px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #666666;
+    letter-spacing: 1%;
+}
+
+
+
+/* Common CSS End */
+
+/* Nav CSS start */
+
+nav{
+   width: 100%;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    z-index: 9999;
+}
+
+nav .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-middle a{
+    font-size: 16px;
+    color: white;
+}
+.nav-middle a:hover{
+    color: #289BDE;
+}
+
+.nav-middle ul {
+    display: flex;
+    column-gap: 30px;
+}
+
+.nav-right a{
+    font-size: 14px;
+    color: white;
+}
+
+.nav-right a:first-child{
+    padding: 9px 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-right: 18px
+}
+.nav-right a:last-child{
+    padding: 8px 45px;
+background-color: #289BDE;
+    border-radius: 5px;
+}
+/* Nav CSS End */
+
+/* Banner CSS start */
+
+#banner{
+    max-width: 100%;
+    background-color: #071B27;
+    text-align: center;
+    position: relative;
+}
+
+#banner h2{
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 222px;
+}
+
+#banner h1{
+    font-size: 70px;
+    max-width: 1117px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    line-height: 90px;
+}
+
+#banner a{
+    font-size: 20px;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 30px;
+margin-top: 40px;
+margin-bottom: 350px;
+
+}
+
+#banner .btn1{
+background-color: #289BDE;
+margin-right: 24px;
+}
+
+#banner .btn1:hover{
+    background-color: transparent;
+border:1px solid #fff ;
+}
+
+#banner .btn2{
+background-color: transparent;
+border:1px solid #fff ;
+}
+
+#banner .btn2:hover{
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+}
+
+#banner img{
+position: absolute;
+left: 0px;
+top: 230px;
+}
+#banner .bnr-image{
+    position: relative;
+}
+#banner .bnr-image .cards{
+    position: absolute;
+    top: -238px;
+    left: 0;
+}
+/* Banner CSS End */
+
+
+/* About Section  CSS Start */
+#about{
+    padding: 360px 0 140px;
+}
+
+#about .title p{
+    margin-bottom: 60px;
+}
+#about .box-text{
+    text-align: left;
+}
+
+#about .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .second{
+    margin-top: 126px;
+}
+#about .third{
+    margin-top: 76px;
+}
+
+
+
+#about .box-text h2{
+    font-size: 42px;
+    color:#071B27;
+    margin-bottom: 10px;
+    
+}
+#about .box-text p{
+    font-size: 20px;
+    max-width: 717px;
+    line-height: 41px;
+}
+#about .box-text span{
+    color: #289BDE;
+}
+
+/* About Section  CSS End */
+
+/* service Section  CSS start */
+#service{
+    max-width: 100%;
+    padding: 157px 0px;
+    background-color: #071B27;
+}
+
+#service h4{
+    font-size: 20px;
+    color: white;
+}
+
+#service h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#service .d-flex{
+    justify-content: space-between;
+}
+
+#service .box{
+    max-width: 643.5px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #1B2D39;
+    border: 1px solid #ffffff8c;
+}
+#service .box h5{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 24px;
+    margin-top: 44px;
+}
+
+#service .box h5 i{
+    transform: rotate(-40deg);
+    font-size: 33px;
+
+}
+
+#service .box ul{
+    display: flex;
+}
+
+#service .box ul li i{
+margin-right: 17px;
+border: 1px solid #289BDE;
+color: #289BDE;
+border-radius: 8px;
+width: 20px;
+height: 24px;
+line-height: 24px;
+text-align: center;
+margin-top: 5px;
+}
+
+#service .box ul li p{
+    font-size: 20px;
+    max-width: 525.82px;
+    margin-bottom: 24px;
+    color: #E6E6E6;
+}
+
+
+
+#service .box ul li p span{
+    color: #289BDE;
+}
+/* service Section  CSS End */
+
+/* Mission Section  CSS start */
+#mission{
+    max-width: 100%;
+padding: 140px 0px;
+
+}
+
+#mission .d-flex{
+    justify-content: space-between;
+align-items: center;
+}
+
+#mission h2{
+    font-size: 40px;
+    max-width: 451px;
+    margin-bottom: 54px;
+}
+
+#mission ul {
+    display: flex;
+    column-gap: 15px;
+}
+#mission ul li{
+    margin-top: 28px;
+}
+#mission ul li h3{
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+#mission ul li p{
+    font-size: 16px;
+    max-width: 479px;
+    line-height: 27px;
+    color: #666666;
+}
+
+.blueIcon{
+    background-color: #289BDE;
+    color: #ffffff;
+padding: 14px 15px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.yellowIcon{
+    background-color: #FABB18;
+    color: #ffffff;
+padding: 14px 15px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+/* Mission Section  CSS End */
+
+
+/* Testimonial Section  CSS start */
+#testimonial{
+    max-width: 100%;
+padding-bottom: 144px;
+}
+#testimonial .title p{
+    margin-bottom: 58px;
+}
+#testimonial .test-box{
+    padding: 26px 27px 15px 39px;
+    border: 1px solid rgba(102, 102, 102, 0.479);
+    border-radius: 5px;
+}
+#testimonial .test-box ul{
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+#testimonial .test-box ul li img{
+    width: 100%;
+}
+
+#testimonial .test-box ul li  h4{
+    font-size: 18px;
+    color: #071B27;
+    margin-bottom: 4px;
+}
+#testimonial .test-box ul li i{
+    color:#FFB906;
+    width: 18px;
+}
+#testimonial .test-box p{
+    font-size: 15px;
+    color: #666666;
+    max-width: 356px;
+    margin-top: 17px;
+    line-height: 27px;
+}
+
+#testimonial .d-flex{
+    flex-wrap: wrap;
+    gap: 20px 24px;
+}
+/* Testimonial Section  CSS End */
+
+
+/* community Section  CSS Start */
+
+#community{
+    max-width: 100%;
+    padding-bottom: 140px;
+}
+#community .d-flex{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#community .title p{
+    margin-bottom: 61px;
+}
+
+#community h5{
+    font-size: 26px;
+    color: #071B27;
+    margin-bottom: 27px;
+}
+#community ul{
+    display: flex;
+    column-gap: 9px;
+}
+#community ul li p:first-child{
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+#community ul li p:last-child{
+    font-size: 17px;
+   color:#666666;
+   max-width: 405px;
+   margin-bottom: 25px;
+}
+
+#community ul li i{
+    background-color: var(--light-color);
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    line-height: 24px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+#community a{
+    padding: 13px 28px ;
+    background-color: #289BDE;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    width: 130px;
+margin: 0 auto;
+font-size: 16px;
+}
+/* community Section  CSS End */
+
+/* Contact Section  CSS Start */
+
+#contact{
+    max-width: 100%;
+    padding-bottom: 140px;
+}
+#contact .d-flex{
+    justify-content: space-between;
+    align-items: center;
+margin: 0 auto;
+    max-width: 1066px;
+}
+
+#contact  .title{
+    margin-bottom: 60px;
+}
+
+#contact .left h4{
+    max-width: 380px;
+    font-size: 42px;
+    color: #12141D;
+    line-height: 52px;
+    margin-bottom: 22px;
+}
+#contact .pera p{
+    font-family: var(--inter);
+    font-size: 18px;
+    line-height: 28px;
+}
+#contact .pera p:first-child{
+
+    max-width: 445px;
+    margin-bottom: 29px;
+}
+#contact .pera p:nth-child(2){
+color: #12141D;
+margin-bottom: 15px;
+}
+
+#contact .pera p:last-child{
+color: #12141D;
+margin-bottom: 21px;
+}
+
+#contact .left p{
+    font-family: var(--inter);
+    line-height: 28px;
+    max-width: 432px;
+    font-size: 18px;
+}
+
+#contact .right{
+    max-width: 498px;
+    -webkit-box-shadow: -2px 3px 17px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 3px 17px -4px rgba(0,0,0,0.75);
+box-shadow: -2px 3px 17px -4px rgba(0,0,0,0.75);
+padding: 43px 36px;
+border-radius: 8px;
+}
+
+#contact .right h4{
+    font-size: 28px;
+    line-height: 35px;
+    color: #12141D;
+    max-width: 376px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+#contact .right label{
+    font-size: 14px;
+    line-height: 20px;
+    color: #12141D;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+#contact .right input ,#contact .right textarea{
+    border: 1px solid #DDE1E0;
+    border-radius: 5px;
+    width: 426px;
+    height: 50px;
+    margin-bottom: 17px;
+
+}
+
+#contact .right button{
+    background-color: #289BDE;
+    margin-top: 40px;
+    color: white;
+    font-family: var(--inter);
+    font-size: 16px;
+    border-radius: 10px;
+width: 100%;
+height: 60px;
+border: none;
+}
+/* Contact Section  CSS End */
+
+
+/* Footer Section  CSS Start */
+footer{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: #289BDE;
+position: relative;
+}
+
+footer .circle{
+    position: absolute;
+    width: 38%;
+    bottom: 0;
+}
+
+
+footer .main-box{
+    max-width: 851px;
+    height: 444px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+footer h2{
+    font-size: 34px;
+    color: #071B27;
+    margin-bottom: 12px;
+}
+footer span{
+    color: #071B27;
+    font-size: 20px;
+    margin-bottom: 12px;
+    display:inline-block;
+}
+footer .main-content{
+    text-align: center;
+    padding: 71px 133px;
+}
+
+footer .main-content p{
+    max-width: 544px ;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+footer .one-line span{
+margin-bottom: 41px;
+font-size: 16px;
+display: inline-block;
+padding-right: 26px;
+color: #666666;
+}
+footer .main-content button{
+    background-color: #289BDE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 9px 28px;
+    cursor: pointer;
+ 
+}
+footer .last-box{
+    margin-top: 68px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 21px 0px;
+}
+footer .last-box .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+footer .last-box .middle ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+footer .last-box .middle ul li{
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .last-box  .right i{
+    width: 53px;
+    height: 53px;
+    color: white;
+    display: inline-block;
+    line-height: 53px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 27px;
+}
+/* Footer Section  CSS End */
